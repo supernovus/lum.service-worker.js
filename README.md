@@ -1,0 +1,30 @@
+# lum.service-worker.js
+
+Helper classes for working with Service Workers.
+
+## Exports
+
+### `@lumjs/service-worker/context`
+
+A class for use inside a Service Worker context. Provides a few simplistic
+methods and sub-classes for handling caches and a few other features.
+
+### `@lumjs/service-worker/browser`
+
+A class for use in a browser window to register, active, and commuicate with
+a Service Worker.
+
+## Official URLs
+
+This library can be found in two places:
+
+ * [Github](https://github.com/supernovus/lum.service-worker.js)
+ * [NPM](https://www.npmjs.com/package/@lumjs/service-worker)
+
+## Author
+
+Timothy Totten <2010@totten.ca>
+
+## License
+
+[MIT](https://spdx.org/licenses/MIT.html)
