@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/service-worker",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "main": "lib/index.js",
   "exports":
   {
@@ -21,7 +21,7 @@
     "url": "https://github.com/supernovus/lum.service-worker.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.16.0"
+    "@lumjs/web-core": "^1.6.0"
   },
   "scripts":
   {
