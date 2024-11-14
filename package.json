@@ -6,14 +6,7 @@
   {
     ".": "./lib/index.js",
     "./context": "./lib/context/index.js",
-    "./context/cache": "./lib/context/cache/cache.js",
-    "./context/cache/registry": "./lib/context/cache/registry.js",
-    "./context/cache/factory": "./lib/context/cache/cachefactory.js",
-    "./context/factory/cache": "./lib/context/cache/cachefactory.js",
-    "./context/factory/event": "./lib/context/cache/eventfactory.js",
-    "./context/factory/match": "./lib/context/cache/matchfactory.js",
     "./window": "./lib/window/index.js",
-    "./window/util": "./lib/window/util.js",
     "./package.json": "./package.json"
   },
   "license": "MIT",
