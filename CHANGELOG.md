@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.20.0] - 2024-11-14
+### Changed
+- Overhauled the entire `context` submodule.
+  It was frankly a mess and while it had worked for a very limited
+  scope I'd used it on in the past, it didn't support features that
+  would be used in a real-world context.
+- As for the version bump, if the version had been `1.x`, it'd be `2.x` now.
+
 ## [0.10.0] - 2024-10-29
 ### Changed
 - Rejigged the default module to simply re-export the sub-module
@@ -19,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release.
 
 
-[Unreleased]: https://github.com/supernovus/lum.service-worker.js/compare/v0.10.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.service-worker.js/compare/v0.20.0...HEAD
+[0.20.0]: https://github.com/supernovus/lum.service-worker.js/compare/v0.10.0...v0.20.0
 [0.10.0]: https://github.com/supernovus/lum.service-worker.js/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/supernovus/lum.service-worker.js/releases/tag/v0.9.0
