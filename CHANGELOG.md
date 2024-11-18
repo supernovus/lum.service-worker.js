@@ -6,13 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.20.0] - 2024-11-14
+## [0.20.0] - 2024-11-18
 ### Changed
 - Overhauled the entire `context` submodule.
   It was frankly a mess and while it had worked for a very limited
   scope I'd used it on in the past, it didn't support features that
   would be used in a real-world context.
-- As for the version bump, if the version had been `1.x`, it'd be `2.x` now.
+- Refactored the `window` submodule.
+  - Made the vapid/subscription stuff a lot cleaner.
+  - Removed the makeshift event system (it was garbage).
+- Made the window.Helper and context.Context classes named exports.
+- As for the version bump, if the version had been `1.x`, it'd be `2.x` now,
+  as this breaks compatibility entirely. So yeah, big revamp.
 
 ## [0.10.0] - 2024-10-29
 ### Changed
