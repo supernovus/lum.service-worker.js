@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.0] - 2026-01-12
+### Added
+- A new CacheBuilder class for quickly building cache definitions.
+- `Context#buildCache` method for creating a CacheBuilder.
+### Plans
+- Support more cache modes. Currently this has only 'cache-first' mode;
+  I want to add cache-first-with-refresh, and network-first modes.
+
 ## [0.20.0] - 2024-11-18
 ### Changed
 - Overhauled the entire `context` submodule.

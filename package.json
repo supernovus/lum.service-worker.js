@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/service-worker",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "main": "lib/index.js",
   "exports":
   {
@@ -17,7 +17,7 @@
   },
   "dependencies": 
   {
-    "@lumjs/web-core": "^1.7.1"
+    "@lumjs/web-core": "^1.9.0"
   },
   "scripts":
   {
