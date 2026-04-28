@@ -4,7 +4,13 @@ Helper classes for working with Service Workers.
 
 ## Status
 
-This package is still in development, and does not have a stable API yet.
+~~This package is still in development, and does not have a stable API yet.~~
+
+I am unhappy with the design of this package, and rather than overhaul it,
+I am planning to replace it entirely with a new package designed from the
+start as a zero-dependency collection of ES Modules; one module for each
+supported global context. The new package will be named `@lumjs/web-workers`
+which is more consistent with the naming of my other `@lumjs/web-*` packages.
 
 ## Exports
 
