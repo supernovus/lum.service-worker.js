@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/service-worker",
-  "version": "0.21.0",
+  "version": "0.21.1",
   "main": "lib/index.js",
   "exports":
   {

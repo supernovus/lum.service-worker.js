@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.1] - 2026-05-14
+### Changed
+- Updated the README file to note that this package is no longer
+  being worked on and will be archived. It's been replaced by the
+  new [@lumjs/web-workers] package which actually works properly.
+
 ## [0.21.0] - 2026-01-12
 ### Added
 - A new CacheBuilder class for quickly building cache definitions.
@@ -39,8 +45,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
+---
 
 [Unreleased]: https://github.com/supernovus/lum.service-worker.js/compare/v0.20.0...HEAD
 [0.20.0]: https://github.com/supernovus/lum.service-worker.js/compare/v0.10.0...v0.20.0
 [0.10.0]: https://github.com/supernovus/lum.service-worker.js/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/supernovus/lum.service-worker.js/releases/tag/v0.9.0
+[@lumjs/web-workers]: https://github.com/supernovus/lum.web-workers.js
